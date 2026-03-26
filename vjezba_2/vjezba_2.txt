@@ -21,5 +21,3 @@ ls -lAt1
 Sadržaj direktorija može se ispisati i naredbom dir
 Primjer rezultata: .env  script.js  style.css
 
-Zadatak 5
-
