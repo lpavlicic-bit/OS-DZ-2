@@ -1,0 +1,25 @@
+Zadatak 2
+
+mkdir vjezba_2/data 
+mkdir vjezba_2/backup
+echo 'console.log("Hello, World!")' > vjezba_2/data/script.js 
+echo 'body { background-color: #f0f0f0; }' > vjezba_2/data/style.css 
+echo 'VJEZBE $=os$' > vjezba_2/data/.env
+Sadržaj datoteke u CLI-ju može se provjeriti naredbom cat
+
+Zadatak 3
+
+cp -rv vjezba_2/data/. vjezba_2/backup/
+cd vjezba_2/data 
+ls -laS ../backup
+
+Zadatak 4
+
+rm -iv script.js style.css
+cp -nv ../backup/.* ../backup/* .
+ls -lAt1
+Sadržaj direktorija može se ispisati i naredbom dir
+Primjer rezultata: .env  script.js  style.css
+
+Zadatak 5
+
