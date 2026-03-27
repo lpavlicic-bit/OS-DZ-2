@@ -20,16 +20,3 @@ cp -nv ../backup/.* ../backup/* .
 ls -lAt1
 Sadržaj direktorija može se ispisati i naredbom dir
 Primjer rezultata: .env  script.js  style.css
-
-Zadatak 5
-
-mkdir -p ~/OS-DZ-2/vjezba_5
-cd ~/OS-DZ-2/vjezba_5
-mkdir -p poddir1 poddir2
-touch file1.txt file2.txt .hiddenfile
-touch poddir1/file3.txt poddir1/file4.txt
-touch poddir2/file5.txt poddir2/.hidden2
-cd ~/OS-DZ-2/vjezba_5
-ls -lASh
-ls -lhS
-tree -a

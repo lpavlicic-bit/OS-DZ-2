@@ -1,0 +1,391 @@
+    1  echo $0
+    2  pwd
+    3  ls
+    4  pwd
+    5  list
+    6  ls Desktop
+    7  pwd
+    8  ls
+    9  ls Desktop
+   10  cs
+   11  cd
+   12  cd Desktop
+   13  cd Books
+   14  ls
+   15  pwd
+   16  ls
+   17  ls -a
+   18  touch test.txt && ls
+   19  ls
+   20  pwd
+   21  ls
+   22  cd /usr/bin && ls
+   23  pwd
+   24  ls
+   25  cd ~
+   26  pwd
+   27  ls
+   28  pwd
+   29  find / -name "test.txt" 2>/dev/null
+   30  pwd
+   31  ls
+   32  mkdir vjezba1 && cd vjezba1
+   33  touch README.md
+   34  cd ..
+   35  pwd
+   36  ls
+   37  cd Github/
+   38  ls
+   39  cd Github/
+   40  cd github/
+   41  cd github
+   42  ls
+   43  ls -d */
+   44  cd ~
+   45  ls
+   46  pwd
+   47  ls
+   48  pwd
+   49  ls -a
+   50  https://github.com/lpavlicic-bit/OS---DZ-1.git
+   51  cd OS---DZ-1
+   52  cd ~
+   53  ls -d */
+   54  find / -maxdepth 3 -type d -name "*OS---DZ-1*" 2>/dev/nul
+   55  git clone [200~https://github.com/lpavlicic-bit/OS---DZ-1.git~
+   56  git clone https://github.com/lpavlicic-bit/OS---DZ-1.git
+   57  ls
+   58  cd OS---DZ-1/
+   59  ls
+   60  cd ..
+   61  ls
+   62  code OS---DZ-1
+   63  pwd
+   64  ls
+   65  mkdir vjezba1 && cd vjezba1
+   66  touch README.md
+   67  cd ..
+   68  mkdir vjezba2 && touch vjezba2/file.txt
+   69  pwd
+   70  git add .
+   71  git commit -m "Dodano"
+   72  git config --global user.name "Lorena"
+   73  git config --global user.email "lpavlicic@unipu.hr"
+   74  git config --list
+   75  git add .
+   76  git commit -m "Dodano"
+   77  git push
+   78  lpavlicic-bit
+   79  git pusg
+   80  git push
+   81  pwd
+   82  mkdir OS-VJ1
+   83  touch OS-VJ1/vj1.txt
+   84  mkdir OS-VJ2
+   85  pwd
+   86  mkdir OS-VJ3
+   87  pwd
+   88  touch OS-VJ2/vj2.txt
+   89  mkdir OS-VJ4
+   90  pwd
+   91  mkdir OS-VJ5
+   92  pwd
+   93  mkdir OS-VJ6
+   94  pwd
+   95  ls
+   96  mkdir vjezba2 && touch vjezba2/file.txt
+   97  pwd
+   98  ls
+   99  mkdir vjezba1 && cd vjezba1
+  100  pwd
+  101  touch README.md
+  102  cd ..
+  103  cp vjezba2/file.txt vjezba2/file_copy.txt
+  104  ls vjezba2
+  105  rm file.txt && cd ..
+  106  rmdir vjezba2
+  107  mkdir vjezba3 && mkdir vjezba3/backup
+  108  touch vjezba3/notes.txt && touch vjezba3/todo.txt && touch vjezba3/script.sh
+  109  cp vjezba3/* vjezba3/backup/
+  110  rm vjezba3/script.sh && ls vjezba3
+  111  mkdir vjezba3/backup/$USER
+  112  mv vjezba3/backup/*.* vjezba3/backup/$USER/
+  113  mkdir vjezba4 && mkdir vjezba4/subfolder
+  114  touch vjezba4/$HOSTNAME
+  115  mv vjezba4/$HOSTNAME vjezba4/$USER
+  116  mv vjezba4/$USER vjezba4/subfolder/
+  117  rm /home/$USER/vjezba4/subfolder/$USER
+  118  /home/lorena/vjezba4/subfolder/$USER
+  119  rm /home/$USER/vjezba4/subfolder/$USER
+  120  cd ~
+  121  ls -R vjezba4
+  122  mkdir -p ~/vjezba4/subfolder
+  123  touch ~/vjezba4/subfolder/lorena
+  124  ls ~/vjezba4/subfolder
+  125  rm ~/vjezba4/subfolder/lorena
+  126  mkdir -p ~/vjezba4/subfolder
+  127  touch ~/vjezba4/$HOSTNAME
+  128  mv ~/vjezba4/$HOSTNAME ~/vjezba4/$USER
+  129  mv ~/vjezba4/$USER ~/vjezba4/subfolder/
+  130  pwd
+  131  mkdir -p ~/vjezba5 && touch ~/vjezba5/$RANDOM.num
+  132  pwd
+  133  mkdir -p ~/vjezba5 && touch ~/vjezba5/$RANDOM.num
+  134  mkdir -p ~/OS---DZ-1/vjezba5 && touch ~/OS---DZ-1/vjezba5/$RANDOM.num
+  135  ls ~/OS---DZ-1/vjezba5
+  136  cp ~/OS---DZ-1/vjezba5/*.num ~/OS---DZ-1/vjezba5/backup.num
+  137  mkdir ~/OS---DZ-1/vjezba5/backup
+  138  mv ~/OS---DZ-1/vjezba5/backup.num ~/OS---DZ-1/vjezba5/backup/
+  139  pwd
+  140  mkdir -p ~/Documents/OS---DZ-1/vjezba6
+  141  pwd
+  142  cd ~/Documents/OS---DZ-1/vjezba6
+  143  ls
+  144  ls ~/OS---DZ-1/vjezba6
+  145  mkdir -p ~/Documents/vjezba6
+  146  mkdir -p ~/OS---DZ-1/Documents/vjezba6
+  147  touch ~/OS---DZ-1/Documents/vjezba6/OS_script.md ~/OS---DZ-1/Documents/vjezba6/notes.txt && mkdir ~/OS---DZ-1/Documents/vjezba6/scripts
+  148  mv ~/OS---DZ-1/Documents/vjezba6/OS_script.md ~/OS---DZ-1/Documents/vjezba6/scripts/
+  149  sudo <command>
+  150  root
+  151  bash --version
+  152  node --version
+  153  sudo apt install nodejs
+  154  how do i check my password
+  155  sudo passwd
+  156  sudo passwrd
+  157  mount -o rw,remount /
+  158  git clone https://github.com/lpavlicic-bit/OS-DZ-2.git
+  159  cd OS-DZ-2
+  160  mkdir vjezba2
+  161  cd vjezba2
+  162  echo "Ovo je zadatak 1" > zadatak1.txt
+  163  git add .
+  164  git commit -m "Riješen zadatak 1"
+  165  git push
+  166  git --version
+  167  cd ~/tvoj_direktorij
+  168  pwd
+  169  cd ~/home/lorena
+  170  pwd
+  171  cd OS-DZ-2
+  172  cd ~/OS-DZ-2
+  173  mkdir vjezba_2
+  174  mkdir vjezba_2/data vjezba_2/backup
+  175  touch vjezba_2/data/script.js vjezba_2/data/style.css vjezba_2/data/.env
+  176  echo 'console.log("Hello, World!")' > vjezba_2/data/script.js
+  177  echo "body { background-color: #f0f0f0; }" > vjezba_2/data/style.css
+  178  echo "VJEZBE=OS" > vjezba_2/data/.env
+  179  cat vjezba_2/data/script.js
+  180  cat vjezba_2/data/style.css
+  181  cat vjezba_2/data/.env
+  182  git clone https://github.com/lpavlicic-bit/OS-DZ-2.git
+  183  pwd
+  184  git clone https://github.com/lpavlicic-bit/OS-DZ-2.git
+  185  pwd
+  186  cd OS-DZ-2
+  187  mkdir vjezba2
+  188  cd vjezba2
+  189  mkdir vjezba_2/data vjezba_2/backup
+  190  -r vjezba2
+  191  rm
+  192  r
+  193  sudi apt install r-cran-littler
+  194  sudo apt install r-cran-littler
+  195  rm
+  196  rm vjezba2
+  197  pwd
+  198  rm -r vjezba_2
+  199  rm -r vjezba2
+  200  ls
+  201  mkdir vjezba_2
+  202  pwd
+  203  cd OS-DZ-2
+  204  pwd
+  205  mkdir vjezba_2
+  206  mkdir vjezba_2/data vjezba_2/backup
+  207  touch vjezba_2/data/script.js vjezba_2/data/style.css vjezba_2/data/.env
+  208  echo 'console.log("Hello, World!")' > vjezba_2/data/script.js
+  209  echo "body { background-color: #f0f0f0; }" > vjezba_2/data/style.css
+  210  echo "VJEZBE=OS" > vjezba_2/data/.env
+  211  cat vjezba_2/data/script.js
+  212  cat vjezba_2/data/style.css
+  213  cat vjezba_2/data/.env
+  214  git commit -m "Riješen zadatak 2"
+  215  git add .
+  216  git commit -m "Riješen zadatak 2"
+  217  git push
+  218  pwd
+  219  cp -a data/. backup/
+  220  cp -a data/.backup/
+  221  cd vjezba_2
+  222  cp -a data/. backup/
+  223  cd data && ls -laS ../backup
+  224  git commit -m "Riješen zadatak 3"
+  225  git add .
+  226  git commit -m "Riješen zadatak 3"
+  227  git add  .
+  228  git commit -m "Riješen zadatak 3"
+  229  pwd
+  230  cd ~/OS-DZ-2/vjezba_2
+  231  git add backup/
+  232  git commit -m "Riješen zadatak 3"
+  233  git push
+  234  pwd
+  235  cd OS-DZ-2/vjezba_2
+  236  cd OS-DZ-2/vjezba_2/data
+  237  cd ~OS-DZ-2/vjezba_2/data
+  238  cd ~/OS-DZ-2/vjezba_2/data
+  239  rm -i !( .env )
+  240  shopt -s extglob
+  241  rm -iv !(.env)
+  242  cp -avn ../backup/. .
+  243  ls -1Alt --ignore='.' --ignore='..'
+  244  ls -ltA
+  245  git commit "Riješen zadatak 4"
+  246  git commit - "Riješen zadatak 4"
+  247  pwd
+  248  cd ~/OS-DZ-2
+  249  git status
+  250  git add .
+  251  git commit -m "Riješen zadatak 4"
+  252  git push
+  253  pwd
+  254  ls -a
+  255  ls -a | grep .git
+  256  git add .
+  257  git commit -m "Riješen zadatak 4"
+  258  git status
+  259  pwd
+  260  cd ~/OS-DZ-2/vjezba_2/data
+  261  find . -maxdepth 1 -type f -printf "%f\n"
+  262  git add .
+  263  git commit -m "Riješen zadatak 4"
+  264  ls -a | grep .git
+  265  git status --ignored
+  266  git ls-files
+  267  cd ~/OS-DZ-2/vjezba_2/data
+  268  ls -A
+  269  ls -la ../backup
+  270  ls -la
+  271  ls -1Alt --ignore='.' --ignore='..'
+  272  ls -l .env
+  273  ls -la ../backup
+  274  dir
+  275  cd ~/OS-DZ-2/vjezba_2/backup
+  276  dir
+  277  ls -lAt1
+  278  dir
+  279  git add .
+  280  git commit -m "Riješen zadatak 4"
+  281  cd ~/OS-DZ-2/vjezba_2
+  282  git add .
+  283  git commit -m "Riješen zadatak 1"
+  284  git add .
+  285  git commit -m "Riješen zadatak 4"
+  286  git push
+  287  pwd
+  288  cd ~/OS-DZ-2/vjezba_5/
+  289  mkdir -p ~/OS-DZ-2/vjezba_5
+  290  cd ~/OS-DZ-2/vjezba_5
+  291  mkdir -p poddir1 poddir2
+  292  touch file1.txt file2.txt .hiddenfile
+  293  touch poddir1/file3.txt poddir1/file4.txt
+  294  touch poddir2/file5.txt poddir2/.hidden2
+  295  ls -A
+  296  tree -a
+  297  sudo snap install tree  # version 2.1.3+pkg-5852
+  298  sudo -i
+  299  pwd
+  300  cd ~/OS-DZ-2
+  301  pwd
+  302  git add .
+  303  git push
+  304  git add .
+  305  git commit
+  306  git add .
+  307  pwd
+  308  cd ~/OS-DZ-2/vjezba_5
+  309  git add .
+  310  git push
+  311  pwd
+  312  history
+  313  git push
+  314  history
+  315  git push
+  316  git add .
+  317  git push
+  318  git add . txt
+  319  git add txt.txt
+  320  git add txt
+  321  pwd
+  322  git push
+  323  git add
+  324  git vjezba_2
+  325  git add vjezba_2
+  326  git commit -m "Riješen zadatak 4"
+  327  git push
+  328  git clone https://github.com/lpavlicic-bit/OS-DZ-2.git
+  329  ls
+  330  rm -rf OS-DZ-2
+  331  ls
+  332  git clone rm -rf test.txt
+  333  ls
+  334  rm -rf test.txt
+  335  ls
+  336  git clone https://github.com/lpavlicic-bit/OS-DZ-2.git
+  337  ls
+  338  cd OS-DZ-2
+  339  code .
+  340  pwd
+  341  git status
+  342  pwd
+  343  git remote -v
+  344  git status
+  345  git ls-files
+  346  git status --ignored
+  347  cat vjezba_2/data/script.js
+  348  dir
+  349  cd ~/OS-DZ-2/vjezba_2
+  350  dir
+  351  ls -laS ../backup
+  352  cd vjezba_2/data
+  353  cd ~/OS-DZ-2/vjezba_2/data
+  354  ls -laS ../backup
+  355  dir
+  356  sudo apt install tree
+  357  cd ~/OS-DZ-2/vjezba_5
+  358  ls -A
+  359  tree -a
+  360  ls -lASh
+  361  ls -lhS
+  362  tree -a
+  363  history
+  364  pwd
+  365  cd ~/OS-DZ-2/vjezba_5$
+  366  cd ~/OS-DZ-2
+  367  git add .
+  368  git push
+  369  pwd
+  370  git add .
+  371  D
+  372  Riješen zadatak 4
+  373  git add .
+  374  git commit -m "Riješen zadatak 5"
+  375  git push
+  376  git add .
+  377  git commit -m "Riješen zadatak 4"
+  378  git push
+  379  git add vjezba_5
+  380  git commit -m "Riješen zadatak 5"
+  381  pwd
+  382  git add vjezba_5
+  383  git commit -m "Riješen zadatak 5"
+  384  git push
+  385  git add vjezba_5
+  386  git commit -m "Riješen zadatak 5"
+  387  git push
+  388  history
+  389  history >
+  390  vjezba_2_history.txt
+  391  history > vjezba_2_history.txt
