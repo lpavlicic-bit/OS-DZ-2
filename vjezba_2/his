@@ -308,4 +308,56 @@
   308  cd ~/OS-DZ-2/vjezba_5
   309  git add .
   310  git push
-  311  history
+  311  pwd
+  312  history
+  313  git push
+  314  history
+  315  git push
+  316  git add .
+  317  git push
+  318  git add . txt
+  319  git add txt.txt
+  320  git add txt
+  321  pwd
+  322  git push
+  323  git add
+  324  git vjezba_2
+  325  git add vjezba_2
+  326  git commit -m "Riješen zadatak 4"
+  327  git push
+  328  git clone https://github.com/lpavlicic-bit/OS-DZ-2.git
+  329  ls
+  330  rm -rf OS-DZ-2
+  331  ls
+  332  git clone rm -rf test.txt
+  333  ls
+  334  rm -rf test.txt
+  335  ls
+  336  git clone https://github.com/lpavlicic-bit/OS-DZ-2.git
+  337  ls
+  338  cd OS-DZ-2
+  339  code .
+  340  pwd
+  341  git status
+  342  pwd
+  343  git remote -v
+  344  git status
+  345  git ls-files
+  346  git status --ignored
+  347  cat vjezba_2/data/script.js
+  348  dir
+  349  cd ~/OS-DZ-2/vjezba_2
+  350  dir
+  351  ls -laS ../backup
+  352  cd vjezba_2/data
+  353  cd ~/OS-DZ-2/vjezba_2/data
+  354  ls -laS ../backup
+  355  dir
+  356  sudo apt install tree
+  357  cd ~/OS-DZ-2/vjezba_5
+  358  ls -A
+  359  tree -a
+  360  ls -lASh
+  361  ls -lhS
+  362  tree -a
+  363  history
